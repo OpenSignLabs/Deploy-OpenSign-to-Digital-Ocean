@@ -29,7 +29,7 @@ spec:
     - key: PUBLIC_URL
       scope: RUN_TIME
       value: ${APP_URL}
-    - key: REACT_APP_SEVERURL
+    - key: REACT_APP_SERVERURL
       scope: RUN_TIME
       value: ${APP_URL}/api/app
     - key: REACT_APP_APPID
