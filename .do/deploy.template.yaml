@@ -59,6 +59,9 @@ spec:
     - key: SERVER_URL
       scope: RUN_TIME
       value: ${APP_URL}/api/app
+    - key: USE_LOCAL
+      scope: RUN_TIME
+      value: TRUE  
     - key: DO_SPACE
       scope: RUN_TIME
       value: opensigntw3d
@@ -75,14 +78,25 @@ spec:
     - key: DO_REGION
       scope: RUN_TIME
       value: us-west
-    - key: MAILGUN_API_KEY
+    - key: SMTP_ENABLE
       scope: RUN_TIME
-    - key: MAILGUN_DOMAIN
+      value: TRUE
+    - key: SMTP_HOST
       scope: RUN_TIME
-    - key: MAILGUN_SENDER
+      value: smtp.gmail.com
+    - key: SMTP_PORT
       scope: RUN_TIME
+      value: 465
+    - key: SMTP_USER_EMAIL
+      scope: RUN_TIME
+      value: yourmail@example.com
+    - key: SMTP_PASS
+      scope: RUN_TIME
+      value: 'oebh csfl qqql hvfo'    
     - key: PFX_BASE64
       scope: RUN_TIME
+    - key: PASS_PHRASE
+      scope: RUN_TIME      
   - name: opensigndb
     http_port: 27017
     dockerfile_path: Dockerfile
