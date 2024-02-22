@@ -86,7 +86,7 @@ spec:
           value: smtp.gmail.com
         - key: SMTP_PORT
           scope: RUN_TIME
-          value: 465
+          value: "465"
         - key: SMTP_USER_EMAIL
           scope: RUN_TIME
           value: yourmail@example.com
