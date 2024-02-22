@@ -2,110 +2,110 @@ spec:
   name: opensigndb
   ingress:
     rules:
-    - component:
-        name: amolshejole-opensignserver
-      match:
-        path:
-          prefix: /api
-    - component:
-        name: opensigndb
-      match:
-        path:
-          prefix: /db
+      - component:
+          name: amolshejole-opensignserver
+        match:
+          path:
+            prefix: /api
+      - component:
+          name: opensigndb
+        match:
+          path:
+            prefix: /db
   services:
-  - name: amolshejole-opensign
-    run_command: npm run start
-    http_port: 8080
-    image:
-      registry: amolshejole
-      registry_type: DOCKER_HUB
-      repository: opensign
-      tag: staging
-    envs:
-    - key: CI
-      value: "false"
-    - key: GENERATE_SOURCEMAP
-      value: "false"
-    - key: PUBLIC_URL
-      scope: RUN_TIME
-      value: ${APP_URL}
-    - key: REACT_APP_SERVERURL
-      scope: RUN_TIME
-      value: ${APP_URL}/api/app
-    - key: REACT_APP_APPID
-      scope: RUN_TIME
-      value: opensignnaxn
-  - http_port: 8080
-    image:
-      registry: amolshejole
-      registry_type: DOCKER_HUB
-      repository: opensignserver
-      tag: staging
-    name: amolshejole-opensignserver
-    run_command: npm run start
-    envs:
-    - key: APP_ID
-      value: opensignnaxn
-    - key: appName
-      value: open_sign_server
-    - key: MASTER_KEY
-      scope: RUN_TIME
-    - key: MONGODB_URI
-      scope: RUN_TIME
-      value: mongodb://root:example@opensigndb/OpenSignDB?authSource=admin
-    - key: PARSE_MOUNT
-      scope: RUN_TIME
-      value: /app
-    - key: SERVER_URL
-      scope: RUN_TIME
-      value: ${APP_URL}/api/app
-    - key: USE_LOCAL
-      scope: RUN_TIME
-      value: TRUE  
-    - key: DO_SPACE
-      scope: RUN_TIME
-      value: opensigntw3d
-    - key: DO_ENDPOINT
-      scope: RUN_TIME
-      value: ams3.digitaloceanspaces.com
-    - key: DO_BASEURL
-      scope: RUN_TIME
-      value: https://opensigntw3d.ams3.digitaloceanspaces.com
-    - key: DO_ACCESS_KEY_ID
-      scope: RUN_TIME
-    - key: DO_SECRET_ACCESS_KEY
-      scope: RUN_TIME
-    - key: DO_REGION
-      scope: RUN_TIME
-      value: us-west
-    - key: SMTP_ENABLE
-      scope: RUN_TIME
-      value: TRUE
-    - key: SMTP_HOST
-      scope: RUN_TIME
-      value: smtp.gmail.com
-    - key: SMTP_PORT
-      scope: RUN_TIME
-      value: 465
-    - key: SMTP_USER_EMAIL
-      scope: RUN_TIME
-      value: yourmail@example.com
-    - key: SMTP_PASS
-      scope: RUN_TIME
-      value: 'oebh csfl qqql hvfo'    
-    - key: PFX_BASE64
-      scope: RUN_TIME
-    - key: PASS_PHRASE
-      scope: RUN_TIME      
-  - name: opensigndb
-    http_port: 27017
-    dockerfile_path: Dockerfile
-    git:
-      repo_clone_url: https://github.com/Qik-Ai-Org/MongoDocker.git
-      branch: main
-    envs:
-    - key: SECRET_KEY_BASE
-      scope: RUN_TIME
-    - key: DATABASE_URL
-      scope: RUN_TIME
-      value: mongodb://root:example@opensigndb/OpenSignDB?authSource=admin
+    - name: amolshejole-opensign
+      run_command: npm run start
+      http_port: 8080
+      image:
+        registry: amolshejole
+        registry_type: DOCKER_HUB
+        repository: opensign
+        tag: staging
+      envs:
+        - key: CI
+          value: "false"
+        - key: GENERATE_SOURCEMAP
+          value: "false"
+        - key: PUBLIC_URL
+          scope: RUN_TIME
+          value: ${APP_URL}
+        - key: REACT_APP_SERVERURL
+          scope: RUN_TIME
+          value: ${APP_URL}/api/app
+        - key: REACT_APP_APPID
+          scope: RUN_TIME
+          value: opensignnaxn
+    - http_port: 8080
+      image:
+        registry: amolshejole
+        registry_type: DOCKER_HUB
+        repository: opensignserver
+        tag: staging
+      name: amolshejole-opensignserver
+      run_command: npm run start
+      envs:
+        - key: APP_ID
+          value: opensignnaxn
+        - key: appName
+          value: open_sign_server
+        - key: MASTER_KEY
+          scope: RUN_TIME
+        - key: MONGODB_URI
+          scope: RUN_TIME
+          value: mongodb://root:example@opensigndb/OpenSignDB?authSource=admin
+        - key: PARSE_MOUNT
+          scope: RUN_TIME
+          value: /app
+        - key: SERVER_URL
+          scope: RUN_TIME
+          value: ${APP_URL}/api/app
+        - key: USE_LOCAL
+          scope: RUN_TIME
+          value: TRUE
+        - key: DO_SPACE
+          scope: RUN_TIME
+          value: opensigntw3d
+        - key: DO_ENDPOINT
+          scope: RUN_TIME
+          value: ams3.digitaloceanspaces.com
+        - key: DO_BASEURL
+          scope: RUN_TIME
+          value: https://opensigntw3d.ams3.digitaloceanspaces.com
+        - key: DO_ACCESS_KEY_ID
+          scope: RUN_TIME
+        - key: DO_SECRET_ACCESS_KEY
+          scope: RUN_TIME
+        - key: DO_REGION
+          scope: RUN_TIME
+          value: us-west
+        - key: SMTP_ENABLE
+          scope: RUN_TIME
+          value: TRUE
+        - key: SMTP_HOST
+          scope: RUN_TIME
+          value: smtp.gmail.com
+        - key: SMTP_PORT
+          scope: RUN_TIME
+          value: 465
+        - key: SMTP_USER_EMAIL
+          scope: RUN_TIME
+          value: yourmail@example.com
+        - key: SMTP_PASS
+          scope: RUN_TIME
+          value: 'oebh csfl qqql hvfo'
+        - key: PFX_BASE64
+          scope: RUN_TIME
+        - key: PASS_PHRASE
+          scope: RUN_TIME
+    - name: opensigndb
+      http_port: 27017
+      dockerfile_path: Dockerfile
+      git:
+        repo_clone_url: https://github.com/Qik-Ai-Org/MongoDocker.git
+        branch: main
+      envs:
+        - key: SECRET_KEY_BASE
+          scope: RUN_TIME
+        - key: DATABASE_URL
+          scope: RUN_TIME
+          value: mongodb://root:example@opensigndb/OpenSignDB?authSource=admin
