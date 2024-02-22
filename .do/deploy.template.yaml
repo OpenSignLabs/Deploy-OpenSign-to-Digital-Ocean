@@ -61,7 +61,7 @@ spec:
           value: ${APP_URL}/api/app
         - key: USE_LOCAL
           scope: RUN_TIME
-          value: TRUE
+          value: "TRUE"
         - key: DO_SPACE
           scope: RUN_TIME
           value: opensigntw3d
@@ -80,7 +80,7 @@ spec:
           value: us-west
         - key: SMTP_ENABLE
           scope: RUN_TIME
-          value: TRUE
+          value: "TRUE"
         - key: SMTP_HOST
           scope: RUN_TIME
           value: smtp.gmail.com
