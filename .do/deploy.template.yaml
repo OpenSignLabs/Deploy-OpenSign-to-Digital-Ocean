@@ -32,9 +32,6 @@ spec:
         - key: REACT_APP_SERVERURL
           scope: RUN_TIME
           value: ${APP_URL}/api/app
-        - key: REACT_APP_APPID
-          scope: RUN_TIME
-          value: opensignnaxn
     - http_port: 8080
       image:
         registry: amolshejole
@@ -45,7 +42,7 @@ spec:
       run_command: npm run start
       envs:
         - key: APP_ID
-          value: opensignnaxn
+          value: opensign
         - key: appName
           value: open_sign_server
         - key: MASTER_KEY
