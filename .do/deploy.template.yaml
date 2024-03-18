@@ -92,8 +92,64 @@ spec:
           value: 'oebh csfl qqql hvfo'
         - key: PFX_BASE64
           scope: RUN_TIME
+          value: MIIKLwIBAzCCCeUGCSqGSIb3DQEHAaCCCdYEggnSMIIJzjCCBEIGCSqGSIb3DQEH
+                BqCCBDMwggQvAgEAMIIEKAYJKoZIhvcNAQcBMFcGCSqGSIb3DQEFDTBKMCkGCSqG
+                SIb3DQEFDDAcBAjaKy6hjEdz0QICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQME
+                ASoEECAp7dwyB7KZ9ebvTj1/iSmAggPAtQG50w3REvSDdYBAA9NWgOhhJrosTOZ2
+                DlzwUCF1YKQTg5Jy1TERQtNbuBnWRC2uMLGOftPbInHb89DBWjleuTsdcIwbE3LM
+                AlK2bEJXEFDnoXNQ2lQbB/KZSdL+dIIbRm91u+pZA5kdg3sDAXfl8R4KgDpoLzXe
+                O6nZtNUMTCnzeCJdbHwxhlnT+UlejvetnPDIWPn6fAT8BZAqm4FQEMfH+FkZ0cNH
+                KKSj0jGGfhhC+hKQ+qFe23sE+NU5GkHf+7BB23xlAb0am5iusEHR5VfKP1/qsomQ
+                MwnxWEcYe7ZM8/hj6ncwTaor46Rg2JpyNAqmtiN6uA43GCPGhnVnjOAMV1/4AGwt
+                vXcDNpHENV0RYeBxd0mqI5h2YdEjtgjmTdq91qr0w+MpaTagl9g60wAynZmB++37
+                Tsw8YqRueBtfIRNq0PbLxLtL/TU9KP6PjDVsu0819iiPh/Qnffjwp4Tulud0V8TY
+                BZSZf28l2eNfAHnVTk42mpb2SmalG29Jf9qBok8wh4vWPukeFSdymIzRW8svGOKL
+                D6I9iEPCVsHUrYOlV2YOvysQSpjD4DaLhnoCG0HAgvFN/8r+yvq7fsCQr4hPqd98
+                6KsdTerkQvpOOA2s+u2jLX+SpSkmM+wAcq6KeLbRj8h8/oXwHier2lw2wTWgLX6B
+                LicWTp8jNhA3KCraRdu2o2vREkMLSlbNJeLwTeSHHKZMrKRaN2FBO2miO5ekJtBi
+                mRsIWJ18xorL00R1twKc1KC78LqPmRIX6vctigtZZE/93KSRFfT0t5f47gVcod0P
+                ND+tCiVBBWITJ7R3tqsTzuH8WUTdGb15QkgImGrlnnqqYUaSWvHcVdOYaw0IeeXp
+                n3zeXavMH0mgN6TlMgITx6DBl819UQpagH/luaNSxsxptR6ytMUuglyk6/wzeIoE
+                hEbNyZrAudyU4jtJe7ZMaNelloNR4n3b981sqJqjS+4Vu8koyzE8mvvQNLLWlcWv
+                QHfbk/yJ5vKs15vUeemxiPkJT/mzrX3gj3oT10sqjRzbPDMzWED3UMg6KuhFH/aH
+                vRWvArlHlmgq6CtzLhjZ4+QNw61JHwCecInOt/jxbma7DeMcY4pQz/AFoO5tNZT8
+                umPh5B4AoJILnuSCmJOb3//Doq+3RKpuFpaZUupiyQXNMPWwFVz847Z5dKOvZxKD
+                jjVa6BvyEbE6gD8uWt5GT2wXKE60a+l2hcxaEWbV2EkAdLNzE/5aI2s50Wa7HYv2
+                qxTABtI2Xvw0M+BrNLP+XWb1KWy7S8NyMIIFhAYJKoZIhvcNAQcBoIIFdQSCBXEw
+                ggVtMIIFaQYLKoZIhvcNAQwKAQKgggUxMIIFLTBXBgkqhkiG9w0BBQ0wSjApBgkq
+                hkiG9w0BBQwwHAQIt+PL5RRs4RICAggAMAwGCCqGSIb3DQIJBQAwHQYJYIZIAWUD
+                BAEqBBAv9/tpwDsB/HWIriZds3MVBIIE0OF+CI90Q6FIIpN2roLI7rMPK66WoqUK
+                fvbz7tL5u6cY0M8g/J9aINr7FF9Wv5FtMtYi+eve1lQ3AQC6cnjKljiLvzlXWjhD
+                fxgziX+ervoGQngN+iPlUKxMYedTXg5UcD17WFmDD6SUfLwNAnZj0LtNKw5QKcHg
+                10OXyt/ICiA3iQeB6r+wc7F73az6zg+wY20BoLBdZpVpZpFFwuARH+jJwtZMcbMW
+                7Lh5QuqK5+ZKvEENfAJDc7giCO403F6gCChjaFtA051yyvNVrjKSooQYoardrvtn
+                6qzCnPKl/2I0ieNkc8GoCd/7juYedJhforkoPcUpTxNTqnEyYcaBZUmhrwTgPvk9
+                3cMvIpeLrz99TST7m8oOWnQzx6xtxnna0EYn6y+hJSkZGk5BiVZ5bIcRBy3uCwU+
+                zQg1zXC7+oKTWrKzTLDPhlxoYE1C4gZXWjWPKD34PoHPtc2CMoMcSaDB9W/sQPwi
+                VXCQE12VRiIZ1PXz5kLf9UdhLJKh0Oah8+T06L4LDEh/mq7QEYolIkhSkBEy+fpE
+                8g/RdOhKMKTgKSudzDJ9QkhNwZHWkmKkMr2y5JjoILWsarmmtgI5oGVQ3/ULkuAP
+                MRbKplm+EMVntCNV89U90W1/RkmFEio28no63eLFfx+uEVkhRDERpnPQbVVylPxu
+                F/jzX4ZHvB4ph1XIGHTj7Jk06jCM6Y1bQgDTrN+PmdxLcT6k5Bw2WQR4tV6MBdp2
+                3DJ3WuAqzscpbWFhMn2o2ypmkoNLrpVmBW9WV/tNIM6BwmbvBDcpuEtOXueuvuGR
+                xrGFJ+xFpH8yYHvqfA+M0c/GPZfKvYl0t4Gh4QCPV7VIXP5rkMyDK8ro7l97s5XI
+                B8uDDyuyMaKsDvKUfMvmOTxUkEyK6SIAPnThO/RbvznbzXyrPSJ3TE7IK+T4cHAV
+                JcuDRZijDLnCKLTiICMGjskZoVXgRIqcKqtqDbr5AfUwVYj4jHWhcaMelegnOIoA
+                OSoprT5OoHZ0NjMN0V0o2QWJrJVkVvTJroMNqLaGdN90OuD8pmkhqzHFPyzVldL2
+                rdo9FakiQgTYJ7XgEssmB901VkVkGG9O9qi8okY5v2VOv5ic6WMTAzQjar2S/uhH
+                1bb+GGcJVTwssimL6zYvJk03gwLRQ3cBSmwk+vRpFr8W6UjMECTdQwwGT4uXlvpL
+                AEoO6PmGaWi71NibR6sSVj0AIa5pieQabpXopZOKKsK2RvUrGgxNSs4zp9hSptpb
+                XUNYMiV+FL8+5I7Xb2NihpakbYvmx04LLcsRlFAOn18QzjaxMvQQjfTNRj2IqwLt
+                NsaNIejE7OVnVxOLnc0AyJTX2Vtt9G5x13tlWt9wwmDGXGtamcDptXca3o8CCmaj
+                MGIRq3rSpfH7MT/PjfNDm6Akp49Avx7Vv/dfkXtso8PB0pIa6amiqBIuVMmm4F8G
+                /7rcqZI0hscGDFfp+tT6AnDupDnxZalVRkH+lc3elaoy7YTM0fKrM7VVxu+EfftX
+                GvmHrLaOUooB01T9/b8TXg8+2kZN7YR01W9G1rBYXiHt23L9brFao93ZcXFaMhiO
+                0YCwLRqixuWpN4kdlywNtogqlEZMyL05WWHC15xVhvHXCfMe+8RFECZiLQa6N7ZP
+                kov3UoaHABHzMSUwIwYJKoZIhvcNAQkVMRYEFPXtELHvnLapiPNe9vPEYwzY6jmt
+                MEEwMTANBglghkgBZQMEAgEFAAQgSoq97yOPhhFxR/09LLuQzFtjdOlPSzw6BDt4
+                Eg4R7isECMB5wmZvIiveAgIIAA==
         - key: PASS_PHRASE
           scope: RUN_TIME
+          value: opensign
     - name: opensigndb
       http_port: 27017
       dockerfile_path: Dockerfile
