@@ -47,6 +47,7 @@ spec:
           value: open_sign_server
         - key: MASTER_KEY
           scope: RUN_TIME
+          value: insecure_masterkey
         - key: MONGODB_URI
           scope: RUN_TIME
           value: mongodb://root:example@opensigndb/OpenSignDB?authSource=admin
