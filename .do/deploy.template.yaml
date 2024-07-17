@@ -41,6 +41,9 @@ spec:
       name: amolshejole-opensignserver
       run_command: npm run start
       envs:
+        - key: PUBLIC_URL
+          scope: RUN_TIME
+          value: ${APP_URL}
         - key: APP_ID
           value: opensign
         - key: appName
