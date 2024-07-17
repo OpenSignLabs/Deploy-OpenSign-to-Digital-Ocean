@@ -20,7 +20,7 @@ spec:
         registry: amolshejole
         registry_type: DOCKER_HUB
         repository: opensign
-        tag: staging
+        tag: main
       envs:
         - key: CI
           value: "false"
@@ -37,7 +37,7 @@ spec:
         registry: amolshejole
         registry_type: DOCKER_HUB
         repository: opensignserver
-        tag: staging
+        tag: main
       name: amolshejole-opensignserver
       run_command: npm run start
       envs:
