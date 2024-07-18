@@ -94,7 +94,7 @@ spec:
       dockerfile_path: Dockerfile
       git:
         repo_clone_url: https://github.com/Qik-Ai-Org/MongoDocker.git
-        branch: staging
+        branch: main
       envs:
         - key: SECRET_KEY_BASE
           scope: RUN_TIME
