@@ -17,24 +17,13 @@ spec:
       run_command: npm run start
       http_port: 8080
       image:
-        registry: amolshejole
+        registry: opensign
         registry_type: DOCKER_HUB
         repository: opensign
         tag: staging
-      envs:
-        - key: CI
-          value: "false"
-        - key: GENERATE_SOURCEMAP
-          value: "false"
-        - key: PUBLIC_URL
-          scope: RUN_TIME
-          value: ${APP_URL}
-        - key: REACT_APP_SERVERURL
-          scope: RUN_TIME
-          value: ${APP_URL}/api/app
     - http_port: 8080
       image:
-        registry: amolshejole
+        registry: opensign
         registry_type: DOCKER_HUB
         repository: opensignserver
         tag: staging
