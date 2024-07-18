@@ -20,7 +20,7 @@ spec:
         registry: amolshejole
         registry_type: DOCKER_HUB
         repository: opensign
-        tag: main
+        tag: staging
       envs:
         - key: CI
           value: "false"
@@ -37,7 +37,7 @@ spec:
         registry: amolshejole
         registry_type: DOCKER_HUB
         repository: opensignserver
-        tag: main
+        tag: staging
       name: amolshejole-opensignserver
       run_command: npm run start
       envs:
@@ -105,7 +105,7 @@ spec:
       dockerfile_path: Dockerfile
       git:
         repo_clone_url: https://github.com/Qik-Ai-Org/MongoDocker.git
-        branch: main
+        branch: staging
       envs:
         - key: SECRET_KEY_BASE
           scope: RUN_TIME
