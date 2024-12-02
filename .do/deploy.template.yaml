@@ -20,13 +20,13 @@ spec:
         registry: opensign
         registry_type: DOCKER_HUB
         repository: opensign
-        tag: staging
+        tag: main
     - http_port: 8080
       image:
         registry: opensign
         registry_type: DOCKER_HUB
         repository: opensignserver
-        tag: staging
+        tag: main
       name: opensignserver
       run_command: npm run start
       envs:
