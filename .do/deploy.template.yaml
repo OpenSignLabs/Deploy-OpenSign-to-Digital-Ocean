@@ -13,7 +13,7 @@ spec:
           path:
             prefix: /db
   services:
-    - name: amolshejole-opensign
+    - name: opensign
       run_command: npm run start
       http_port: 8080
       image:
@@ -27,7 +27,7 @@ spec:
         registry_type: DOCKER_HUB
         repository: opensignserver
         tag: staging
-      name: amolshejole-opensignserver
+      name: opensignserver
       run_command: npm run start
       envs:
         - key: PUBLIC_URL
