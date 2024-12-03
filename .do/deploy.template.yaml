@@ -6,7 +6,7 @@ spec:
           name: opensignserver
         match:
           path:
-            prefix: /api
+            prefix: /app
       - component:
           name: opensigndb
         match:
@@ -48,7 +48,7 @@ spec:
           value: /app
         - key: SERVER_URL
           scope: RUN_TIME
-          value: ${APP_URL}/api/app
+          value: ${APP_URL}/app
         - key: USE_LOCAL
           scope: RUN_TIME
           value: "TRUE"
