@@ -3,6 +3,11 @@ spec:
   ingress:
     rules:
       - component:
+          name: opensign
+        match:
+          path:
+            prefix: /
+      - component:
           name: opensignserver
         match:
           path:
