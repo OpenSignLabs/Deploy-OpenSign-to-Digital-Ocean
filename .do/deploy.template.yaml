@@ -3,7 +3,7 @@ spec:
   ingress:
     rules:
       - component:
-          name: opensignserver
+          name: api
         match:
           path:
             prefix: /api
